@@ -169,7 +169,7 @@ jobs:
       - uses: actions/checkout@v6
 
       - name: Validate plugin tested up to version
-        uses: jazzsequence/action-validate-plugin-version@v2.0.1
+        uses: jazzsequence/action-validate-plugin-version@v2.0.2
         with:
           gh-token: ${{ secrets.GITHUB_TOKEN }}
 
